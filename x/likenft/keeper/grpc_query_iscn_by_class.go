@@ -4,8 +4,8 @@ import (
 	"context"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	iscntypes "github.com/likecoin/likecoin-chain/v4/x/iscn/types"
-	"github.com/likecoin/likecoin-chain/v4/x/likenft/types"
+	iscntypes "github.com/likecoin/likecoin-chain/v5/x/iscn/types"
+	"github.com/likecoin/likecoin-chain/v5/x/likenft/types"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

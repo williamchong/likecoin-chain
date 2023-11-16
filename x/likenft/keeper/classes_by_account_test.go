@@ -5,11 +5,11 @@ import (
 	"testing"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/likecoin/likecoin-chain/v4/testutil"
-	keepertest "github.com/likecoin/likecoin-chain/v4/testutil/keeper"
-	"github.com/likecoin/likecoin-chain/v4/testutil/nullify"
-	"github.com/likecoin/likecoin-chain/v4/x/likenft/keeper"
-	"github.com/likecoin/likecoin-chain/v4/x/likenft/types"
+	"github.com/likecoin/likecoin-chain/v5/testutil"
+	keepertest "github.com/likecoin/likecoin-chain/v5/testutil/keeper"
+	"github.com/likecoin/likecoin-chain/v5/testutil/nullify"
+	"github.com/likecoin/likecoin-chain/v5/x/likenft/keeper"
+	"github.com/likecoin/likecoin-chain/v5/x/likenft/types"
 	"github.com/stretchr/testify/require"
 )
 

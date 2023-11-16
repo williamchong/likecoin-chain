@@ -10,8 +10,8 @@ import (
 	authTypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	paramTypes "github.com/cosmos/cosmos-sdk/x/params/types"
 
-	"github.com/likecoin/likecoin-chain/v4/x/iscn/types"
-	"github.com/likecoin/likecoin-chain/v4/x/likefeegrant"
+	"github.com/likecoin/likecoin-chain/v5/x/iscn/types"
+	"github.com/likecoin/likecoin-chain/v5/x/likefeegrant"
 )
 
 type AccountKeeper interface {

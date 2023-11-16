@@ -1,4 +1,4 @@
-module github.com/likecoin/likecoin-chain/v4
+module github.com/likecoin/likecoin-chain/v5
 
 go 1.19
 

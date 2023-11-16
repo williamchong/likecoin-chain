@@ -26,9 +26,9 @@ import (
 	genutiltypes "github.com/cosmos/cosmos-sdk/x/genutil/types"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 
-	likeapp "github.com/likecoin/likecoin-chain/v4/app"
+	likeapp "github.com/likecoin/likecoin-chain/v5/app"
 
-	"github.com/likecoin/likecoin-chain/v4/x/iscn/types"
+	"github.com/likecoin/likecoin-chain/v5/x/iscn/types"
 )
 
 const DefaultNodeHome = "/tmp/.liked-test"

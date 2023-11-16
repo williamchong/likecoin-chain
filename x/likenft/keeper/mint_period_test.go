@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/likecoin/likecoin-chain/v4/x/likenft/keeper"
-	"github.com/likecoin/likecoin-chain/v4/x/likenft/testutil"
-	"github.com/likecoin/likecoin-chain/v4/x/likenft/types"
+	"github.com/likecoin/likecoin-chain/v5/x/likenft/keeper"
+	"github.com/likecoin/likecoin-chain/v5/x/likenft/testutil"
+	"github.com/likecoin/likecoin-chain/v5/x/likenft/types"
 	"github.com/stretchr/testify/require"
 )
 

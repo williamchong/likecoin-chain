@@ -8,10 +8,10 @@ import (
 	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/likecoin/likecoin-chain/v4/testutil/network"
+	"github.com/likecoin/likecoin-chain/v5/testutil/network"
 
-	cli "github.com/likecoin/likecoin-chain/v4/x/likenft/client/cli"
-	types "github.com/likecoin/likecoin-chain/v4/x/likenft/types"
+	cli "github.com/likecoin/likecoin-chain/v5/x/likenft/client/cli"
+	types "github.com/likecoin/likecoin-chain/v5/x/likenft/types"
 	"github.com/stretchr/testify/require"
 )
 

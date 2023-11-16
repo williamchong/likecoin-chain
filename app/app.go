@@ -97,21 +97,21 @@ import (
 
 	ibctestingtypes "github.com/cosmos/ibc-go/v6/testing/types"
 
-	"github.com/likecoin/likecoin-chain/v4/x/iscn"
-	iscnkeeper "github.com/likecoin/likecoin-chain/v4/x/iscn/keeper"
-	iscntypes "github.com/likecoin/likecoin-chain/v4/x/iscn/types"
+	"github.com/likecoin/likecoin-chain/v5/x/iscn"
+	iscnkeeper "github.com/likecoin/likecoin-chain/v5/x/iscn/keeper"
+	iscntypes "github.com/likecoin/likecoin-chain/v5/x/iscn/types"
 
 	"github.com/cosmos/cosmos-sdk/x/nft"
 	nftkeeper "github.com/cosmos/cosmos-sdk/x/nft/keeper"
 	nftmodule "github.com/cosmos/cosmos-sdk/x/nft/module"
 
-	"github.com/likecoin/likecoin-chain/v4/x/likenft"
-	likenftkeeper "github.com/likecoin/likecoin-chain/v4/x/likenft/keeper"
-	likenfttypes "github.com/likecoin/likecoin-chain/v4/x/likenft/types"
+	"github.com/likecoin/likecoin-chain/v5/x/likenft"
+	likenftkeeper "github.com/likecoin/likecoin-chain/v5/x/likenft/keeper"
+	likenfttypes "github.com/likecoin/likecoin-chain/v5/x/likenft/types"
 )
 
 const (
-	UpgradeName = "v4.1.1"
+	UpgradeName = "v5.0.0"
 )
 
 var (
