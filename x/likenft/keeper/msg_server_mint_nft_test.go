@@ -5,6 +5,7 @@ import (
 	"testing"
 	"time"
 
+	tmproto "github.com/cometbft/cometbft/proto/tendermint/types"
 	cdctypes "github.com/cosmos/cosmos-sdk/codec/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
@@ -16,7 +17,6 @@ import (
 	"github.com/likecoin/likecoin-chain/v5/x/likenft/testutil"
 	"github.com/likecoin/likecoin-chain/v5/x/likenft/types"
 	"github.com/stretchr/testify/require"
-	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 )
 
 func TestMintOwnerNFTNormal(t *testing.T) {

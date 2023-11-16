@@ -7,7 +7,7 @@ import (
 	"regexp"
 	"strconv"
 
-	"github.com/tendermint/tendermint/crypto/tmhash"
+	"github.com/cometbft/cometbft/crypto/tmhash"
 )
 
 const IscnIdRegexpPattern = "iscn://([-_.:=+,a-zA-Z0-9]+)/([-_.:=+,a-zA-Z0-9]+)(?:/([0-9]+))?$"

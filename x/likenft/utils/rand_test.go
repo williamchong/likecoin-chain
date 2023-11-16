@@ -4,10 +4,10 @@ import (
 	"encoding/hex"
 	"testing"
 
+	tmproto "github.com/cometbft/cometbft/proto/tendermint/types"
 	testkeeper "github.com/likecoin/likecoin-chain/v5/testutil/keeper"
 	"github.com/likecoin/likecoin-chain/v5/x/likenft/utils"
 	"github.com/stretchr/testify/require"
-	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 )
 
 func TestRandSeedFromLastBlockHash(t *testing.T) {
